@@ -10,8 +10,10 @@
 public class Varargs {
 
 	public static void main(String[] args) {
-		
-		show("Hello Bro...");
+		// Array
+		String [] array = {"A", "B", "C"};
+		// Method invoking
+		show("Hello Bro...", array);
 	}
   
   // Varargs 
