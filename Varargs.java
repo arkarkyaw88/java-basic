@@ -1,6 +1,6 @@
 /**
   * Author  : ARKAR KYAW
-  * Created : 9 Jan 2023 Monday
+  * Created : 10 Jan 2023 Tuesday
   * Master  : Min Lwin ( JDC )
   * Class   : Java Basic Online Class
   * Define  : Variable Arguments
