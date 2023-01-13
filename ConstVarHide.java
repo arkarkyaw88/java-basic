@@ -24,7 +24,7 @@ public class ConstVarHide{
 }
 
 
-class Hello() {
+class Hello {
   //Declare variable
   //Global Scope
   int count;
