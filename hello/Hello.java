@@ -9,6 +9,7 @@
 //Top Level Code
 package hello;
 
+//Declare for public
 public class Hello {
   System.out.println("Hello Package");
 }
