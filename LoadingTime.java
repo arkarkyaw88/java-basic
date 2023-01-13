@@ -12,6 +12,9 @@ import java.util.Scanner;
 public class LoadingTime {
   
   public static void main(String[] args) {
+
+    //Start the program and wait for user input
+    System.out.println("Program starting");
     
     Scanner sc = new Scanner(System.in);
     sc.nextLine();
