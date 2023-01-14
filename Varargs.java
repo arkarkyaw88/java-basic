@@ -18,7 +18,7 @@ public class Varargs {
   
   // Varargs 
 	
-  static void show(String ... values) {
+  static void show(String ... strs) {
     // For Loop
 		for (String str : strs) {
 			System.out.println(str);
