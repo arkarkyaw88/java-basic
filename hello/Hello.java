@@ -11,5 +11,14 @@ package hello;
 
 //Declare for public
 public class Hello {
-  System.out.println("Hello Package");
+ 
+ //Define a subclass, qualify name SubClass
+ hello.sub.SubClass sub = new hello.sub.SubClass();
+ 
+ public void greet() {
+   System.out.println("Hello Package");
+   //Can invoke subclass sub from here
+   sub.greet();
+ } 
+ 
 }
