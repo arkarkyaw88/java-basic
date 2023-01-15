@@ -33,6 +33,9 @@ public class LoadingTime {
     demo = new LoadDemo();
     System.out.println("Create an Obj again!);
     sc.nextLine();
+    
+    //For Best Practice (-_()_-)
+    sc.close(); 
   }
 }
 
