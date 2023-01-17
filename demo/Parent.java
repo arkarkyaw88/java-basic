@@ -1,4 +1,4 @@
-import demo;
+package demo;
 
 public class Parent {
   
