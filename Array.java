@@ -6,6 +6,7 @@ String [] array;
 int array [];
 
 //If we know final data, just declare like this
+//Direct input value style
 int array [] = {1, 2, 3};
 //Invoke
 array;
