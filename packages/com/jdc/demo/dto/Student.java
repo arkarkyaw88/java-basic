@@ -9,9 +9,9 @@ public class Student {
   
   public Student(String name, String phone, String email) {
   
-    this.name;
-    this.phone;
-    this.email;
+    this.name = name;
+    this.phone = phone;
+    this.email = email;
   }
   
   public String getName() {
