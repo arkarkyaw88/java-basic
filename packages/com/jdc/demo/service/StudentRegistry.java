@@ -35,6 +35,13 @@ public class StudentRegistry {
     
   }
   
+  //Get all students from array[]
+  public Student[] getAll() {
+    
+    return array;
+  
+  }
+  
   //Find by ID
   public Student findById(int id) {
      for (var s : array) {
