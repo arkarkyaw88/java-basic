@@ -6,3 +6,9 @@
 2. Const name must be Exactly ClassName.
 3. Constructor with arguments, when compiling Default Constructor will be disappear. Solution : Constructor Overload
 4. Firstly worked when creat an Object.
+
+
+/**
+* ACCESS MODIFIER
+*/
+
