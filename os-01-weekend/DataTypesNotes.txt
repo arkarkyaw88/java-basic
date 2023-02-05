@@ -1,4 +1,23 @@
 /**
+* DATA TYPES 
+* Primitive and Reference
+* 8 Types , All Objects
+*/
+
+Primitive Types :
+
+char
+boolean
+byte
+short
+int
+long
+float
+double
+
+
+
+/**
 * DATA TYPES LAW
 *
 */
