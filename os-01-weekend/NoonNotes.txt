@@ -16,3 +16,18 @@ public ==> Can access from same project.
 default ==> If there is no Access modifier, Can connect to package's class, Already declared variable with no public, private, protected.
 protected ==> Can access from Inheritance extend.
 private ==> Within only tho class.
+
+
+
+/**
+* NON ACCESS MODIFIER
+*/
+
+abstract
+static
+final
+synchronized
+volatile
+native
+strictfp
+transient => Use in Spring FW
