@@ -1,0 +1,68 @@
+/**
+* DATA TYPES LAW
+*
+*/
+
+Three laws of number primitive type java.
+
+
+LAW One: 
+
+Long to Int
+lData = (long)iData //Optional Cast , Implicit Cast, upCast
+
+Bigger type can't assign to smaller type = Solution is casting.
+
+
+LAW Two:
+
+int and smaller than of int that calculate result type is int
+
+int and bigger than of int that calculate resuly type is bigger type
+
+
+LAW Three:
+
+long;
+float;
+
+lData = fData; //Can't put
+
+All int type can assign to all floating type but all floating type can't assign to all int type => NO Solution
+Read in numbering system.
+
+
+//Literals definations => int i = 100;
+//100 is called Literals
+//Binary => 0b
+//Octal => 0 ==> Start with Zero Preface
+//Hexa  => 0x , 0X
+
+int literal = 0b100 => 4
+literal = 0b101
+
+
+/**
+* OPERATORS
+*/
+
+Four Operators :
+1. Assignment : = , += , -=, *=, /=
+2. Arithmetic : +, -, *, /, %, ++, -- . { Pre ++a n Post a++ }
+3. Relational : <, <=, >, >=, !=, == . { Result will be return by Boolean }
+4. Logical : !, & {If one false, all false} , && {Only Works First one}, || { First and Second work, not third } ,Solution for work firstly use Parenthesis.
+   ^ { If not same, return true },
+
+// If there is no parenthesis it will work  " x / + - ", 
+// But same level x, / n %. For start work use Parenthesis for same level's.
+
+
+
+/**
+* Expressions
+*/
+
+5 + 3 = 8 {Expression}
+
+Statements
+int result = 5 + 3; 
