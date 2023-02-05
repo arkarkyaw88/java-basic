@@ -1,1 +1,19 @@
 
+Control Flow Statements
+
+Decision Statements :
+
+if , if/else , if/else if/else
+
+void show(int a) {
+		if(a>0 && a<10) {
+			System.out.println("a is greater than 0 and less than 10");
+		} else {
+			System.out.println("Something Wrong");
+		}
+	}
+  
+  //Invoke == show(5);
+  
+  //Looping Statements
+  for , while , do/while
