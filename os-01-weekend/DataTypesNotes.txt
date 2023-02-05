@@ -66,3 +66,21 @@ Four Operators :
 
 Statements
 int result = 5 + 3; 
+
+
+/**
+* LOCAL VARIABLE
+*/
+
+In this local variable , we cant use access modifier like static, private, public.
+final can use and must initialize or assign value.
+
+Class is Static
+Object is Instance
+
+
+/**
+* METHODS 
+*/
+
+Two methods type : return type and void
