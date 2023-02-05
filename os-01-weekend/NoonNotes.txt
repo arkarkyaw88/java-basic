@@ -10,6 +10,7 @@
 
 /**
 * ACCESS MODIFIER
+* Two Access modifier.
 */
 
 public ==> Can access from same project.
