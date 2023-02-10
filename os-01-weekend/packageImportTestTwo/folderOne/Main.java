@@ -10,6 +10,9 @@ public class Main {
     
     Data d = new Data();
     d.showData(5);
+    
+    Utils u = new Utils();
+    u.printData("HaXor Arkar Kyaw");
   
   }
 
