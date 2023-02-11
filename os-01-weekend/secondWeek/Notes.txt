@@ -2,3 +2,41 @@
 
 start with return
 return ->
+
+
+// Looping Statement
+Repeat again & again use loop
+# while loop
+
+boolean bunsAvailable = true;
+while(bunsAvailable) {
+  //prepare Burger
+  
+  if(nomoreBurns) {
+    bunsAvailable = false;
+  }
+}
+
+Loop ကိုပြီးအောင် ရေးသင့်တယ်
+Unwanted CPU Memory usage ကို ကာကွယ်ဖို့ရန်
+
+
+# do while loop က do ကို တကြိမ်အလုပ်လုပ်တယ်
+# ပီးမှ Condition စစ်တယ် မှန်ရင် do ကိုပြန်ခိုင်းတယ်
+
+boolean exitSelected = false;
+
+do{
+  String selectedOption = displayMenuToUser();
+  
+  if(selectedOption)
+}
+
+# while loop က Condition အရင်စစ်တယ်
+
+
+// Arrays
+// MultiDimensionArray
+
+
+//
