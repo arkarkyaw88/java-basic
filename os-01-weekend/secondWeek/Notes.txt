@@ -3,6 +3,7 @@
 start with return
 return ->
 
+//GlobalVariale => Global လို Variable ကိုကြော်ငြာထားရင် Object ဆောက်ပီး တန်ဖိုး ပြန်ထဲ့ပေးဖို့လိုမယ်
 
 // Looping Statement
 Repeat again & again use loop
