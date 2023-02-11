@@ -39,4 +39,7 @@ do{
 // MultiDimensionArray
 
 
-//
+// Return Statement
+# Return ပြန်ဖို့လိုအပ်တဲ့အခါသုံးရတယ်
+# Void မဟုတ်သော Method များတွင် Return type သတ်မှတ်ပေးရတယ်
+# Method တခုကို အဆုံးသတ်စေချင်ရင် သုံးတယ်
