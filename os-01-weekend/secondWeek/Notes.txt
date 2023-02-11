@@ -38,6 +38,24 @@ do{
 // Arrays
 // MultiDimensionArray
 
+//SaveToArray
+// int[] arr1 = {1,2,3,4,5}
+arr1 ==> int[5] { 1, 2, 3, 4, 5 }
+
+ int[] arr2 = new int[0]
+arr2 ==> int[0] {  }
+
+arr2 = Arrays.copyOf(arr1, arr1.length)
+arr2 ==> int[5] { 1, 2, 3, 4, 5 }
+
+arr2
+arr2 ==> int[5] { 1, 2, 3, 4, 5 }
+
+arr2 = Arrays.copyOf(arr2,arr2.length+1)
+arr2 ==> int[6] { 1, 2, 3, 4, 5, 0 }
+
+
+
 
 // Return Statement
 # Return ပြန်ဖို့လိုအပ်တဲ့အခါသုံးရတယ်
