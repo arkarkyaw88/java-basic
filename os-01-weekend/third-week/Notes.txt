@@ -5,8 +5,11 @@
 // Encapsulation ဆိုတာ
 // Object တခုရဲ့ State တွေကို တခြားနေရာက ယူမသုံးစေချင်ရင် package, database, access modifier, module တွေကိုသုံးပီး ကာကွယ်လို့ရတယ်.
 
-// Inheritance
-// Is-A relationship between Parent n Child, 
 
 // Eclipse ide cmd
 // New Project => command + n
+
+#Inheritance
+// Is-A relationship between Parent n Child, 
+// Method အတူတူ အမျိုးအစား Class တွေအသုံးပြုချင်မှပဲ Inheritance ကိုသုံးပါ.
+// State n Behavior ကိုသုံးချင်တာလောက်နဲ့တော့ မသုံးပါနှင့်.
