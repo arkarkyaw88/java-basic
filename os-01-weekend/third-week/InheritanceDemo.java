@@ -25,7 +25,7 @@ class B extends A{
 		showName();
 	}
 }
-
-class C extends A{
+// မျိုးရိုးဆက်ခံပိုင်ခွင့်ရှိပေမဲ့လဲ အဆင့်ဆင့်မျိုးရိုးဆက်ခံပိုင်ခွင့်ကို သတိပြုပါ
+class C extends B{
 	
 }
