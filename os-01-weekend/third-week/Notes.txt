@@ -1,1 +1,12 @@
-//Notes OOP
+#Notes of OOP
+// Object တည်ဆောက်တိုင်းကောင်းတာမဟုတ်ဘူး.
+// Object တခု တည်ဆောက်လိုက်ပီ ဆိုတာနဲ့ Stack Memory ပေါ်မှာ နေရာအရင်ယူတယ် Last in Passed Out flow နဲ့ အလုပ်လုပ်တယ်.
+
+// Encapsulation ဆိုတာ
+// Object တခုရဲ့ State တွေကို တခြားနေရာက ယူမသုံးစေချင်ရင် package, database, access modifier, module တွေကိုသုံးပီး ကာကွယ်လို့ရတယ်.
+
+// Inheritance
+// Is-A relationship between Parent n Child, 
+
+// Eclipse ide cmd
+// New Project => command + n
