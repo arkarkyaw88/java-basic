@@ -11,3 +11,4 @@ Static and default ထဲ့ပေးရင် method တွေအလုပ်�
 
 interface အခြင်းခြင်းဆိုရင် extends => Multiple inheritance between interface
 interface ထဲမှာ ရှိတဲ့ Method တွေကနေတဆင့် ဖြစ်ခေါ်တာက Encapsulation ကို အားသာစေတယ်
+
