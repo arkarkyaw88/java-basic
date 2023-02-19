@@ -13,6 +13,8 @@
 // Is-A relationship between Parent n Child, 
 // Method အတူတူ အမျိုးအစား Class တွေအသုံးပြုချင်မှပဲ Inheritance ကိုသုံးပါ.
 // State n Behavior ကိုသုံးချင်တာလောက်နဲ့တော့ မသုံးပါနှင့်.
+// Parent မှာ arg မပါတဲ့ Constructor ဆောက်ထားရင် Child class မှာ constructor ရေးစရာမလိုဘူး
+// Parent မှာ Argument ပါတဲ့ Constructor ဆောက်ထားရင်တော့ Child မှာ Const ရေးကိုရေးရမယ် 
 
 // protected က  package တူနေတယ် inheritance extends လုပ်ထားတယ်ဆိုရင်  directory တူ class ထဲမှာ Object တခုဆောက်ရုံနဲ့ မြင်နိုင်တယ်.
 
@@ -29,7 +31,8 @@ private, protected,
 
 // Final access modifier တပ်လိုက်ပီဆိုတာနဲ့ Inheritance လုပ်လို့မရတော့ဘူး. နောက်ဆုံး ထပ်ပြင်လို့မရအောင် Final တပ်သုံးရတယ်.
 
-// @Override သဘောတရားက မတူတဲ့ ပုံစံမျိုးတွေသုံးချင်မှ ရေးတာ... အလွယ်မှတ်ရရင် ထပ်ပီးပြင်ခိုင်းချင်ရင် Override.
+// @Override သဘောတရားက မတူတဲ့ ပုံစံမျိုးတွေသုံးချင်မှ ရေးတာ... Parent Class ထဲမှာရှိတဲ့ State n Behave ကို မသုံးချင်လို့ ထပ်ပီး Override သုံးတယ် ..
+   အလွယ်မှတ်ရရင် ထပ်ပီးပြင်ခိုင်းချင်ရင် Override.
 // Static method နဲ့ @Override မဖြစ်ဘူး... 
 // Instance method ပဲ ဖြစ်တယ်....
 
@@ -41,7 +44,9 @@ private, protected,
 // လက်ရှိ Class ရဲ့ Constructor ကိုခေါ်ရင် this(); ဆိုပီးခေါ်လို့ရတယ်
 // Constructor တခု ကို တည်ဆောက်ထားရင် Default Constructor မပါတော့
 
-# Constructor Overload point is Parameter()
+
+###### Constructor Overload point is Parameter() ######
+
 Constructor ရေးတဲ့ အခါမှာ Method name တူပီး args() ပါတာနဲ့ မပါတာရေးတာကို Const Overload လို့ခေါ်တယ်
 
 Constructor ကို return ပြန်ရာမှာ ပြန်မှာနဲ့ မပြန်ဘူး ၂ ခုကို မတူတာမျိုးခွဲရေးလို့ မသင့်
