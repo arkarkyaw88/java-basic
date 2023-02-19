@@ -66,3 +66,6 @@ BUT need {} body in subClass or childClass
 // Constructor private ဖြစ်တာမဖြစ်တာနဲ့မဆိုင်တော့ဘူး. abstract က Object ဆောက်လို့ကိုမရတာ
 Anonymous
 
+//Getter & Setters
+boolean type return use isActive
+
