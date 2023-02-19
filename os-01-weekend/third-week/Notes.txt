@@ -1,5 +1,5 @@
 #Notes of OOP
-// Object တည်ဆောက်တိုင်းကောင်းတာမဟုတ်ဘူး.
+// Object တည်ဆောက်တိုင်းကောင်းတာမဟုတ်ဘူး. OK ?
 // Object တခု တည်ဆောက်လိုက်ပီ ဆိုတာနဲ့ Stack Memory ပေါ်မှာ နေရာအရင်ယူတယ် Last in Passed Out flow နဲ့ အလုပ်လုပ်တယ်.
 
 // Encapsulation ဆိုတာ
@@ -13,3 +13,51 @@
 // Is-A relationship between Parent n Child, 
 // Method အတူတူ အမျိုးအစား Class တွေအသုံးပြုချင်မှပဲ Inheritance ကိုသုံးပါ.
 // State n Behavior ကိုသုံးချင်တာလောက်နဲ့တော့ မသုံးပါနှင့်.
+
+// protected က  package တူနေတယ် inheritance extends လုပ်ထားတယ်ဆိုရင်  directory တူ class ထဲမှာ Object တခုဆောက်ရုံနဲ့ မြင်နိုင်တယ်.
+
+// Parent class က Method တွေကို Extends လုပ်ပီး Child class ကနေယူသုံးတယ်, 
+// @Override လုပ်မယ်ဆိုရင် Child Class ထဲမှာ Parent Class ကနာမည်တူ method name ကို ရေးထားရင် 
+// မတူတဲ့ အခြေအနေ State ကိုလုပ်ချင်ရင် @Override ကိုသုံးတယ်.
+
+// @Override ရေးမယ်ဆိုရင် modifier နဲ့ Level တူရမယ်. မတူရင် သူ့ထက်ကြီးရမယ်. Default ကတော့ အေကာင်းဆုံး
+private, protected,
+
+// Method name , () argument or argument type, arg serial place not same ဆိုရင် @Override မဖြစ်ဘူး.
+
+// Parent Class တခုရေးလိုက်တယ်... အဲ့ Class က နောက်ကွယ်မှာ Object ကို သူ့အလိုလို java ကနေ Extends လုပ်ပေးသွားတယ်.
+
+// Final access modifier တပ်လိုက်ပီဆိုတာနဲ့ Inheritance လုပ်လို့မရတော့ဘူး. နောက်ဆုံး ထပ်ပြင်လို့မရအောင် Final တပ်သုံးရတယ်.
+
+// @Override သဘောတရားက မတူတဲ့ ပုံစံမျိုးတွေသုံးချင်မှ ရေးတာ... အလွယ်မှတ်ရရင် ထပ်ပီးပြင်ခိုင်းချင်ရင် Override.
+// Static method နဲ့ @Override မဖြစ်ဘူး... 
+// Instance method ပဲ ဖြစ်တယ်....
+
+// Return type မှာကျတော့ Level တူရင်တူ မတူရင် Subclass or ငယ်ရမယ်.. ကြီးလို့ မရ Return Type
+
+// Constructor ပေါ်မှာ Object က တိုက်ရိုက် မှီခို သက်ရောက်နေတယ် , Constructor မှာ private access modifier ထဲ့ထားရင် Object create လုပ်ရင် error.
+
+// Parent Class ထဲမှာ Constructor with argument() တခုဆောက်ထားရင်  , Child class ထဲမှာလဲ Constructor with argument(String s) ဆောက်ပီး super(s); ခေါ်ပေးဖို့လိုတယ်.
+// လက်ရှိ Class ရဲ့ Constructor ကိုခေါ်ရင် this(); ဆိုပီးခေါ်လို့ရတယ်
+// Constructor တခု ကို တည်ဆောက်ထားရင် Default Constructor မပါတော့
+
+# Constructor Overload point is Parameter()
+Constructor ရေးတဲ့ အခါမှာ Method name တူပီး args() ပါတာနဲ့ မပါတာရေးတာကို Const Overload လို့ခေါ်တယ်
+
+Constructor ကို return ပြန်ရာမှာ ပြန်မှာနဲ့ မပြန်ဘူး ၂ ခုကို မတူတာမျိုးခွဲရေးလို့ မသင့်
+
+// IS-A Relationship && HAS-A Relationship in OOP
+IS-A Relationshop ဆိုတာက Class ၂ ခုက Extends ဖြစ်နေတာမျိုး
+HAS-A Relationship ဆိုတာကျတော့ သူ့စီမှာ ရှိတဲ့ ဟာ, သူ့စီကဟာ
+
+//Abstract Class
+public abstract class Shape{} == abstract method(); // NO Body
+BUT need {} body in subClass or childClass 
+
+// တူညီတဲ့ Class တွေကို အမျိုးစားအတူတူ စုပီးအသုံးပြုလိုရင် Abstract ကိုသုံးတယ် But
+// Abstract က Object ကိုယ်တိုင်တည်ဆောက်လို့မရဘူး. Child or SubClass ကနေတည်ဆောက်ပြီးသုံးတယ်
+// abstract method တွေအပြင် instance method , static method ပါရေးလို့ရတယ်
+// Modifier လဲ ကန့်သတ်ထားမှုမရှိဘူး.
+// Constructor private ဖြစ်တာမဖြစ်တာနဲ့မဆိုင်တော့ဘူး. abstract က Object ဆောက်လို့ကိုမရတာ
+Anonymous
+
