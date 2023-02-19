@@ -1,0 +1,13 @@
+#### Interface
+
+100% public abstract entity ဖြစ်တယ်
+
+interface java 8 မှာ interface ထဲမှာ instance variable ကြော်ငြာမယ်ဆိုရင် initial value ထဲ့ပေးရမယ်. 
+static final ဆိုပီး အော်တို မထဲ့ပေးလဲ ဖစ်သွားမယ်. 
+variable မဖစ်တော့ဘဲ constant ဖစ်သွားမယ်.
+Instance members တွေအလုပ်မလုပ်ဘူး.
+
+Static and default ထဲ့ပေးရင် method တွေအလုပ်လုပ်တယ်.
+
+interface အခြင်းခြင်းဆိုရင် extends => Multiple inheritance between interface
+interface ထဲမှာ ရှိတဲ့ Method တွေကနေတဆင့် ဖြစ်ခေါ်တာက Encapsulation ကို အားသာစေတယ်
