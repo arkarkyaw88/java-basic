@@ -30,3 +30,5 @@ pom.xml ထဲမှာ ပြင်ရေးရန်
   @Target (ElementType.FIELD) ဆိုရင် Variable အပေါ်မှာ တင်သုံးလို့ပဲရမယ်..  Comma can be used for multiple Element type...
   
   @annotation ထဲမှာ Parameter ထဲပေးချင်ရင် Method ဆောက်ရမယ်
+
+#Abstract Method ကို Interface , Abstract Class , Enum ရေးလို့ရတယ်
