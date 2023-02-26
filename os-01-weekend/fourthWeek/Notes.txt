@@ -32,3 +32,36 @@ pom.xml ထဲမှာ ပြင်ရေးရန်
   @annotation ထဲမှာ Parameter ထဲပေးချင်ရင် Method ဆောက်ရမယ်
 
 #Abstract Method ကို Interface , Abstract Class , Enum ရေးလို့ရတယ်
+
+Enum => Constant တခုချင်းစီမှာမူတည်ပီး မတူကွဲပြားတဲ့ Behavior တွေကိိုထဲ့ချင်ရင်သုံးတယ်
+
+#Generic Type <T> <>() = TypeCasting အစားအသုံးပြုတယ်
+
+Type တွေကို တမျိုးပီးတမျိုး ပြောင်းပီးလိုချင် လက်ခံလိုရင် Generic <T> ကိုသုံးလို့ရတယ်, Type Casting သုံးစရာမလိုဘူး
+Generic Type က compile လုပ်ပီးရင် မရှိတော့ဘူး.. Compile time မှာပဲ ရှိနေမှာ
+
+#GenericMethod
+<T> generic method တွေကို return ပြန်ထားရင် Object ဆောက်ပီး Data type ကို စိတ်ကြိုက်လက်ခံပီး ထုတ်ပေးနိုင်တယ်
+Pair ဆိုတာ Generic type class.
+
+Bounded Type ကိုသုံးပီး ကန့်သတ်လို့ရတယ် Bounded လုပ်ရင် class n subclass မှာပဲ သုံးလို့ရမယ်
+
+#WildCard
+<T> type မသတ်မှတ်ချင်သေးဘူးဆိုရင် wildcard ? ကိုသုံးထားလို့ရတယ်
+Problem က ဘာတန်ဖိုးမှ ထဲ့ပေးလို့မရတော့ဘူး... အငယ်ဆုံးတန်ဖိုးထဲ့ပေးရင်တောင် အကြီးဆုံးTypeကို Auto ပြောင်းသွားတတ်လို့ပဲ
+
+//Home wk 45 min rec
+
+1. user input Value or default value zero must be save.
+2. Use annotation
+3. user type more times again n again, save to multi dimension array and then if 
+4. if user type other data type, show total array output in screen
+
+#jUnit test search jupiter
+
+https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/
+
+https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/
+
+
+# Exception Object = အမှားတွေကို ထုတ်ပြဖို့ => runtime system
