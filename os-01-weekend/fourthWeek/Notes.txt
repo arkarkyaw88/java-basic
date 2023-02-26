@@ -68,3 +68,6 @@ https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/
 
 
 RUNTIME exception == uncheck exception
+
+uncheck exception က တခါပဲ throws လုပ်ဖို့လိုတယ်
+check exception ကျတော့ method invokation တလျောက် လုပ်ဖို့လိုတတ်တယ် throws !!!
