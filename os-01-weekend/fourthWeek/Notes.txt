@@ -65,3 +65,6 @@ https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/
 
 
 # Exception Object = အမှားတွေကို ထုတ်ပြဖို့ => runtime system
+
+
+RUNTIME exception == uncheck exception
