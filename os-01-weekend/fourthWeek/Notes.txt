@@ -71,3 +71,6 @@ RUNTIME exception == uncheck exception
 
 uncheck exception က တခါပဲ throws လုပ်ဖို့လိုတယ်
 check exception ကျတော့ method invokation တလျောက် လုပ်ဖို့လိုတတ်တယ် throws !!!
+
+try catch finally 
+try အလုပ်လုပ်မယ် catch လုပ်မယ် exception ဖြစ်ရင် try ပြန်အလုပ်လုပ်မယ် .. finally ကတော့ သူ့ဘာသူ အမြဲအလုပ်လုပ်နေလိမ့်မယ်
