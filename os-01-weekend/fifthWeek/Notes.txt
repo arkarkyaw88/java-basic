@@ -56,3 +56,44 @@ create table mango_tbl(
   col1 set('A', 'B', 'C'),
   col2 enum('Location', 'NY', 'France')
   );
+
+
+// JSON testing
+create table product (
+  name varchar(10),
+  price decimal(9, 2),
+  properties json
+);
+
+insert into product (properties) values ('
+{
+  "weight" : 10,
+  "size" : ["Small", "Medium", "Large" ],
+  "manufacture" : {
+    "name" : "Company"
+  }
+}
+');
+
+//
+insert into product (properties) values (
+  JSON_OBJECT('weight', 20, 'dimension', JSON_ARRAY(1,2,3), 'manufacture', JSON_OBJECT('name', 'Company1'))
+);
+
+
+select JSON_EXTRACT(properties, '$.weight') from product;
+
+//
+create table bool_tbl ( col boolean );
+
+
+// key id
+create table customer (
+  id int,
+  name varchar(40),
+  phone varchar(11),
+  email varchar(30),
+  primary key(id) //Cannot be null in ()
+);
+
+insert into customer (id, name) values (1, 'Kyaw Kyaw');
