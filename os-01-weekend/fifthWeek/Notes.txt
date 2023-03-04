@@ -1,0 +1,58 @@
+#### Database ####
+
+Relational DB  - Non Relational DB (No SQL)
+
+Relation -> Table, Entity
+Tuple , Row , Record
+Attribute, Column, Field
+
+###
+
+DDL - Data Defination Language
+DML - Data Manipulation Language
+DCL - Data Control Language
+
+utf8mb4 = Cant use mmuni
+utf8 = mm font can be
+
+### Creation  DB ###
+
+create database weos1_db;
+
+create table hello (id int); // We can declare column in parenthesis;
+
+create table data_type (
+  chr_col char(15),
+  vchr_col varchar(15),
+  bi_col binary(15),
+  vbi_col varbinary(15)
+);
+
+insert into data_type (chr_col, vchr_col) values ('hello', 'hello');
+
+select * from data_type;
+
+show extended columns from data_type;
+
+use weos1_db //No need " ; "
+
+//Table add
+alter table data_type add column dec_col decimal(5, 2); //All 5 words with 2 decimal => 231.99
+
+insert into data_type (dec_col) values (12345); //5 words need decimal 
+
+
+//Create TB
+create table date_tbl(col1 date, col2 time, col3 datetime, col4 timestamp);
+
+//Table drop
+alter table data_type drop column vbi_col;
+
+//Data Types
+Money ->  Decimal တို့ တိကျတဲ့ တန်ဖိုး သတ်မှတ်တာမျိုး သုံးပေးတယ်
+
+// set , enum
+create table mango_tbl(
+  col1 set('A', 'B', 'C'),
+  col2 enum('Location', 'NY', 'France')
+  );
