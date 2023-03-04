@@ -44,18 +44,22 @@ Generic Type က compile လုပ်ပီးရင် မရှိတော့
 <T> generic method တွေကို return ပြန်ထားရင် Object ဆောက်ပီး Data type ကို စိတ်ကြိုက်လက်ခံပီး ထုတ်ပေးနိုင်တယ်
 Pair ဆိုတာ Generic type class.
 
-Bounded Type ကိုသုံးပီး ကန့်သတ်လို့ရတယ် Bounded လုပ်ရင် class n subclass မှာပဲ သုံးလို့ရမယ်
+#Bounded Type ကိုသုံးပီး ကန့်သတ်လို့ရတယ် Bounded လုပ်ရင် class n subclass မှာပဲ သုံးလို့ရမယ်, 
+ Class level မှာဆိုရင် extends ပဲသုံးလို့ရတယ်.   Super မရ.
 
-#WildCard
+
+################## WildCard ##################
 <T> type မသတ်မှတ်ချင်သေးဘူးဆိုရင် wildcard ? ကိုသုံးထားလို့ရတယ်
 Problem က ဘာတန်ဖိုးမှ ထဲ့ပေးလို့မရတော့ဘူး... အငယ်ဆုံးတန်ဖိုးထဲ့ပေးရင်တောင် အကြီးဆုံးTypeကို Auto ပြောင်းသွားတတ်လို့ပဲ
 
-//Home wk 45 min rec
+//Home WORK 45 min in recording
+Req :
 
 1. user input Value or default value zero must be save.
 2. Use annotation
 3. user type more times again n again, save to multi dimension array and then if 
 4. if user type other data type, show total array output in screen
+
 
 #jUnit test search jupiter
 
