@@ -1,0 +1,12 @@
+check Exception အမျိုးအစားကို throws Exception လုပ်ရင် 
+handle with try catch အရင်ပြောင်း
+ပြောင်းပီးမှ Exception ထဲမှာ ထဲ့ပေးလို့ရတယ်.
+
+RuntimeException == uncheck Exception type
+
+try with multi catch can wrote in Exception case.
+နောက်ဆုံးအလုပ်လုပ်စေချင်ရင် finally ကို catch အောက်ကပ်ပီးရေးလို့ရ.
+
+ exception class ကိုယ်တိုင်နှင့် uncheck exception မဟုတ်တဲ့ကောင်တွေကို check exception.
+ uncheck exception ဆိုရင်မဖစ်မနေ handle try catch လုပ်သင့်တယ်.
+ 
