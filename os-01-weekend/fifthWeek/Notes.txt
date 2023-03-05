@@ -97,3 +97,53 @@ create table customer (
 );
 
 insert into customer (id, name) values (1, 'Kyaw Kyaw');
+
+
+############## DAY TWO #################
+
+# Primary key - not null, would be unique
+
+create table category(
+  id int unsigned primary key, //Unsigned cant accept minus values
+  name varchar(40) not null unique,
+  creation datetime not null
+);
+
+insert into category values (1, 'Mobile');
+
+alter table category add column creation date not null default '23-03-28';
+
+insert into category (id, name) values (3, 'Furniture');
+
+alter table category add owner varchar(20) first; //Create owner column with first place role
+
+alter table category rename to product;
+
+alter table product rename column owner to creator; //Rename owner column to creator
+
+//
+create table account(
+  id int primary key,
+  email varchar(40) not null,
+  password varchar(30) not null,
+  username varchar(30) not null default 'User',
+  created_at datetime not null default now()
+  
+);
+
+alter table account modify column password varchar(30) not null check(char_length(password) >= 9); //Password with not less than 9 words.
+show create table account;
+
+insert into account (id, email, password) values (1, 'hello@gmail.com', 'bob');
+ERROR 3819 (HY000): Check constraint 'account_chk_1' is violated.
+
+insert into account (id, email, password) values (1, 'hello@gmail.com', 'magic@demon1337');
+
+// product table
+alter table product add column price decimal(9, 2);
+alter table product add column agent_price decimal(9, 2);
+
+
+alter table product add constraint check(); //ဆိုရင် နာမည်မထဲ့ပေးတဲ့အတွက် Default name will be autoadd in query.
+
+insert into product (id, name, price, agent_price) values (2, 'AK', 2900, 2700); // agent price will be less than price
