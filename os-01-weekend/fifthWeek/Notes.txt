@@ -34,6 +34,7 @@ select * from data_type;
 
 show extended columns from data_type;
 
+
 use weos1_db //No need " ; "
 
 //Table add
@@ -147,3 +148,61 @@ alter table product add column agent_price decimal(9, 2);
 alter table product add constraint check(); //ဆိုရင် နာမည်မထဲ့ပေးတဲ့အတွက် Default name will be autoadd in query.
 
 insert into product (id, name, price, agent_price) values (2, 'AK', 2900, 2700); // agent price will be less than price
+
+//Composite primary key
+create table gen_pri(
+  id int,
+  create_time datetime default now(),
+  data varchar(20)
+  primary key(id, create_time)
+);
+insert into gen_pri (id) values (0);
+
+desc gen_pri;
+
+//truncate = auto reset 
+one-to-many.sql
+//drop database if exists db_name; //ရှိမှ အလုပ်လုပ်မှာ
+create database one_to_many_db;
+use one_to_many_db;
+
+create table customer(
+  id int primary key auto_increment,
+  name varchar(40) not null,
+  phone varchar(20),
+  email varchar(30)
+);
+
+insert into customer (name, phone, email) values 
+('John', '095141434', 'lol@gmail.com'),
+('Micke', '095232334', 'ooll@gmail.com'),
+('Nickie', '095222334', 'nickball@gmail.com'),
+
+create table orders(
+  id int primary key auto_increment,
+  customer_id int,
+  order_date date not null default CURDATE(),
+  order_time time not null default CURTIME(),
+  foreign key(customer_id) references customer(id)
+);
+
+insert into orders (customer_id, order_date, order_time) values (1, curdate(), curtime());
+
+delete from customer where id = 1; //Cannot
+
+update customer set name = 'Zara', email = 'zara@gmail.com', where id  = 1; //Default Constraint က Owner ထဲမှာ ရှိတဲ့ Data ကို ဖျက်လို့မရဘူး coz of references
+
+#### USAGE from SQL ####
+
+// mysql -u root -p < ~/Desktop/os1-weekeng.sql
+// mysql> source ~/Desktop/os1-weekend/one_to_one.sql
+
+#### USAGE from SQL ####
+
+// 1 to many Relationship မှာ Foreign key ချိတ်ရင် Many ဘက်မှာရှိရမယ်
+(1 to Many) = Customer 1 -> 0..* Orders
+
+
+// 1 to 1 Relationship
+Foreign key ကို ပြင်ရတာ နည်းတဲ့ ဘက်မှာ ထားတာကောင်းတယ်.
+
