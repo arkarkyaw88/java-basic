@@ -1,0 +1,9 @@
+Collection is generic type interface.
+
+           - Set<T>    ->  SortedSet<T>
+Collection - List<T>
+           - Queue<T>  ->  Deque<T>
+           ~ Map<T>
+           ~ SortedMap<T>
+           
+တည်ဆောက်ထားတဲ့ Structure ပေါ်မူတည်ပီး I/O data သည် သူလိုက်နာထားတဲ့ Set ပေါ်မူတည်သည်.
